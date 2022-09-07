@@ -1,0 +1,17 @@
+{% extends "base.html"%}
+
+{% block content %}
+  <h1>{{ author.first_name }} {{ author.last_name }}</h1>
+  <p>Username: {{ author.username }}</p>
+
+  <div class="ml-3">
+    <h3>Books:</h3>
+
+    {%  for book in author.writers.all %}
+      <hr>
+      <a href="{{ book.get_absolute_url }}"> {{ book.title}}</a>
+    {% empty %}
+      <p>No books!!!</p>
+    {% endfor %}
+  </div>
+{% endblock %}
