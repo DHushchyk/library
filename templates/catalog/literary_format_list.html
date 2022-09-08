@@ -27,7 +27,7 @@
             <a href="{% url 'catalog:literary-format-update' pk=literary_format.id %}">UPDATE</a>
           </td>
           <td>
-            <a href="{% url 'catalog:literary-format-delete' pk=literary_format.id %}">DELETE</a>
+            <a style="color: red" href="{% url 'catalog:literary-format-delete' pk=literary_format.id %}">DELETE</a>
           </td>
         </tr>
       {% endfor %}
