@@ -28,7 +28,7 @@ python manage.py runserver
 
 ## Test User
 * username: user_test
-* password Abcde12345
+* password shgfg868hgdg6r
 
 
 ## Demo
