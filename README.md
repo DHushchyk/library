@@ -25,6 +25,12 @@ python manage.py runserver
 * Managing books authors & literary formats directory from website
 * Powerful admin panel for advanced managing
 
+
+## Test User
+* username: user_test
+* password Abcde12345
+
+
 ## Demo
 
 ![Website Interface](demo.PNG)
